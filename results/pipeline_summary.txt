@@ -1,0 +1,26 @@
+==========================================================
+PIPELINE RUN SUMMARY
+IIITDM Kancheepuram · EC5110 · Multimedia Project
+Team: Jeevan EC23B1016 | Arulmozhi EC23B1135 | Sudhiksha ME23B2006
+==========================================================
+Input Video Resolution  : 1920x1080
+Input Video FPS         : 30.0
+Total Frames Processed  : 2516
+Lane Detection Method   : OpenCV Canny + Hough (fallback)
+----------------------------------------------------------
+LATENCY SUMMARY
+Module         Avg       Min       Max       Std
+YOLO              20.4ms     11.6ms   2090.8ms     41.6ms
+LANE              29.6ms     21.7ms     68.8ms      5.8ms
+BEV                1.5ms      0.2ms     17.6ms      0.8ms
+TOTAL             52.5ms     36.4ms   2328.0ms     46.8ms
+----------------------------------------------------------
+Effective Processing FPS : 19.1
+==========================================================
+Report Assets saved to /content/report_assets/
+  - sample_frames/output_frame_1..6.png
+  - input_frames/input_frame_1..4.png
+  - bev_roi_frame.png
+  - yolo_only_frame.png
+  - lane_only_frame.png
+==========================================================
