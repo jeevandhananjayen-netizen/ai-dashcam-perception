@@ -1,0 +1,4 @@
+D:/Pdf[[:space:]]Files/IIITDM[[:space:]]Files/Sem[[:space:]]6/Multimedia/Project/github_upload/yolov3.weights filter=lfs diff=lfs merge=lfs -text
+yolov3.weights filter=lfs diff=lfs merge=lfs -text
+*.pth filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
